@@ -1,0 +1,6 @@
+OrderID,OrderDate,DeliveryDate,OrderType,Status,CustomerName,ProductName,Quantity,UnitPrice,TotalAmount,ShippingAddress,City,Region
+1005,2025-01-19,2025-01-23,Standard,Pending,Digital Workspace,Monitor 27inch,8,350.00,2800.00,654 Maple Dr,Phoenix,West
+1026,2025-01-19,2025-01-24,Standard,In Transit,Mobile Connect,Phone Stand,45,18.00,810.00,987 Cedar Ln,Philadelphia,Northeast
+1027,2025-01-19,2025-01-23,Standard,Pending,Office Supplies Plus,Stapler Heavy Duty,15,22.00,330.00,321 Pine St,Houston,South
+1028,2025-01-19,2025-01-20,Express,Completed,Global Retail Co,Power Bank 20000mAh,20,55.00,1100.00,456 Oak Ave,Los Angeles,West
+1029,2025-01-19,2025-01-24,Standard,In Transit,Tech Solutions Inc,Laptop Stand,14,85.00,1190.00,123 Main St,New York,Northeast

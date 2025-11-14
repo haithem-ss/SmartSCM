@@ -1,0 +1,8 @@
+CustomerID,CustomerName,ContactEmail,Phone,Address,City,Region,AccountType
+C001,Tech Solutions Inc,contact@techsolutions.example,555-0101,123 Main St,New York,Northeast,Business
+C002,Global Retail Co,orders@globalretail.example,555-0102,456 Oak Ave,Los Angeles,West,Business
+C003,Smart Homes Ltd,info@smarthomes.example,555-0103,789 Elm Rd,Chicago,Midwest,Business
+C004,Office Supplies Plus,sales@officesupplies.example,555-0104,321 Pine St,Houston,South,Business
+C005,Digital Workspace,support@digitalworkspace.example,555-0105,654 Maple Dr,Phoenix,West,Business
+C006,Mobile Connect,hello@mobileconnect.example,555-0106,987 Cedar Ln,Philadelphia,Northeast,Retail
+C007,Enterprise Systems,contact@enterprise.example,555-0107,147 Birch St,San Antonio,South,Business

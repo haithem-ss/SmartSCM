@@ -1,0 +1,4 @@
+OrderID,OrderDate,DeliveryDate,OrderType,Status,CustomerName,ProductName,Quantity,UnitPrice,TotalAmount,ShippingAddress,City,Region
+1006,2025-01-20,2025-01-24,Standard,Completed,Tech Solutions Inc,Keyboard Mechanical,15,120.00,1800.00,123 Main St,New York,Northeast
+1007,2025-01-21,2025-01-25,Standard,In Transit,Mobile Connect,Phone Case,50,20.00,1000.00,987 Cedar Ln,Philadelphia,Northeast
+1008,2025-01-22,2025-01-23,Express,Completed,Global Retail Co,Tablet 10inch,12,400.00,4800.00,456 Oak Ave,Los Angeles,West

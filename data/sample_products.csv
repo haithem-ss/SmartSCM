@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,Supplier,InStock,ReorderLevel,UnitPrice
+P001,Laptop Pro 15,Electronics,TechSupply Co,45,10,1200.00
+P002,Wireless Mouse,Accessories,PeripheralHub,200,50,35.00
+P003,Smart Thermostat,Smart Home,HomeAutomation Inc,75,20,150.00
+P004,USB-C Cable,Accessories,CableWorld,500,100,12.00
+P005,Monitor 27inch,Electronics,DisplayTech,60,15,350.00
+P006,Keyboard Mechanical,Accessories,PeripheralHub,120,30,120.00
+P007,Phone Case,Mobile,MobileAccessories Ltd,300,80,20.00
+P008,Tablet 10inch,Electronics,TechSupply Co,40,10,400.00
+P009,Docking Station,Accessories,PeripheralHub,55,15,200.00
+P010,Security Camera,Smart Home,HomeAutomation Inc,90,25,80.00

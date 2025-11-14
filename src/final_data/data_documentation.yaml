@@ -1,0 +1,65 @@
+columns:
+  OrderID:
+    description: "Unique identifier for each order (primary key)"
+    data_type: "integer"
+    additional_notes: "Sequential order numbers starting from 1001. Auto-incremented for each new order. Used for tracking and reference purposes across all systems. No gaps or duplicates allowed."
+
+  OrderDate:
+    description: "Date when the order was placed"
+    data_type: "date"
+    additional_notes: "Format: YYYY-MM-DD. Timezone: EST/EDT. Orders placed after 5 PM may be processed the next business day. This field is used for reporting, analytics, and SLA calculations."
+
+  DeliveryDate:
+    description: "Expected or actual delivery date"
+    data_type: "date"
+    additional_notes: "Format: YYYY-MM-DD. For completed orders, this is the actual delivery date. For pending/in-transit orders, this is the estimated delivery date. May be updated if delays occur. Standard orders: 3-5 business days, Express orders: 1-2 business days."
+
+  OrderType:
+    description: "Type of shipping method for the order"
+    data_type: "string"
+    additional_notes: "Values: Standard, Express. Standard shipping is the default option (free for orders over $500). Express shipping has additional fees but guarantees faster delivery. Business customers often prefer Express for urgent orders."
+
+  Status:
+    description: "Current status of the order"
+    data_type: "string"
+    additional_notes: "Values: Pending (awaiting processing), In Transit (shipped and on the way), Completed (delivered successfully). Status transitions: Pending → In Transit → Completed. Canceled orders are excluded from this dataset."
+
+  CustomerName:
+    description: "Name of the customer who placed the order"
+    data_type: "string"
+    additional_notes: "Examples: Tech Solutions Inc, Global Retail Co, Smart Homes Ltd. Primarily B2B customers. Each customer has a unique account with order history, payment terms, and discount levels. Top customers receive priority processing."
+
+  ProductName:
+    description: "Name of the product ordered"
+    data_type: "string"
+    additional_notes: "Electronics and accessories like Laptop Pro 15, Wireless Mouse, Smart Thermostat, etc. Product names are standardized across the catalog. May include model numbers or specifications. Popular categories: Laptops, Peripherals, Smart Home devices, Office Equipment."
+
+  Quantity:
+    description: "Number of units ordered"
+    data_type: "integer"
+    additional_notes: "Positive integers ranging from 1 to 500. Bulk orders (>50 units) may qualify for volume discounts. Average order quantity varies by product category: electronics (5-15 units), accessories (20-50 units)."
+
+  UnitPrice:
+    description: "Price per unit in USD"
+    data_type: "decimal"
+    additional_notes: "Format: ####.## (2 decimal places). Reflects current pricing at time of order. May differ from catalog price if customer has negotiated rates or active promotions. Prices range from $8.00 to $1,200.00 in this dataset."
+
+  TotalAmount:
+    description: "Total order amount (Quantity × UnitPrice)"
+    data_type: "decimal"
+    additional_notes: "Format: ####.## (2 decimal places). Calculated field: Quantity × UnitPrice. Does not include taxes or shipping fees. Used for revenue reporting and customer spend analysis. Orders over $5,000 may require manager approval."
+
+  ShippingAddress:
+    description: "Street address for delivery"
+    data_type: "string"
+    additional_notes: "Example: 123 Main St. Must be a valid deliverable address. PO Boxes may have restrictions for certain products. Verified against address validation services. Commercial addresses preferred for B2B orders."
+
+  City:
+    description: "Delivery city"
+    data_type: "string"
+    additional_notes: "US cities like New York, Los Angeles, Chicago, Houston, Phoenix, Philadelphia, San Antonio. Major metropolitan areas for faster delivery. Used for route optimization and regional analysis. Some cities may have same-day delivery options."
+
+  Region:
+    description: "Geographic region of delivery"
+    data_type: "string"
+    additional_notes: "Values: Northeast (NY, PA, etc.), West (CA, AZ, etc.), Midwest (IL, etc.), South (TX, etc.). Used for regional sales analysis, inventory distribution, and logistics planning. Each region has dedicated distribution centers."

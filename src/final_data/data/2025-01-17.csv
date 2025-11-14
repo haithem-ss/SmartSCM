@@ -1,0 +1,5 @@
+OrderID,OrderDate,DeliveryDate,OrderType,Status,CustomerName,ProductName,Quantity,UnitPrice,TotalAmount,ShippingAddress,City,Region
+1003,2025-01-17,2025-01-22,Standard,In Transit,Smart Homes Ltd,Smart Thermostat,10,150.00,1500.00,789 Elm Rd,Chicago,Midwest
+1019,2025-01-17,2025-01-21,Standard,Completed,Digital Workspace,Ergonomic Chair,6,280.00,1680.00,654 Maple Dr,Phoenix,West
+1020,2025-01-17,2025-01-18,Express,Completed,Mobile Connect,Bluetooth Speaker,18,75.00,1350.00,987 Cedar Ln,Philadelphia,Northeast
+1021,2025-01-17,2025-01-22,Standard,In Transit,Office Supplies Plus,Paper Shredder,8,95.00,760.00,321 Pine St,Houston,South

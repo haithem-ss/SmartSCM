@@ -1,0 +1,6 @@
+OrderID,OrderDate,DeliveryDate,OrderType,Status,CustomerName,ProductName,Quantity,UnitPrice,TotalAmount,ShippingAddress,City,Region
+1004,2025-01-18,2025-01-19,Express,Completed,Office Supplies Plus,USB-C Cable,100,12.00,1200.00,321 Pine St,Houston,South
+1022,2025-01-18,2025-01-23,Standard,Pending,Global Retail Co,Desk Lamp LED,22,45.00,990.00,456 Oak Ave,Los Angeles,West
+1023,2025-01-18,2025-01-22,Standard,In Transit,Tech Solutions Inc,Router WiFi 6,9,180.00,1620.00,123 Main St,New York,Northeast
+1024,2025-01-18,2025-01-19,Express,Completed,Smart Homes Ltd,Door Sensor,35,30.00,1050.00,789 Elm Rd,Chicago,Midwest
+1025,2025-01-18,2025-01-23,Standard,Pending,Enterprise Systems,Cable Organizer,50,8.00,400.00,147 Birch St,San Antonio,South

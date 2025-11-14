@@ -1,0 +1,5 @@
+OrderID,OrderDate,DeliveryDate,OrderType,Status,CustomerName,ProductName,Quantity,UnitPrice,TotalAmount,ShippingAddress,City,Region
+1002,2025-01-16,2025-01-20,Express,Completed,Global Retail Co,Wireless Mouse,25,35.00,875.00,456 Oak Ave,Los Angeles,West
+1016,2025-01-16,2025-01-19,Express,Completed,Tech Solutions Inc,USB Hub 7-Port,12,65.00,780.00,123 Main St,New York,Northeast
+1017,2025-01-16,2025-01-21,Standard,In Transit,Enterprise Systems,Network Switch,4,450.00,1800.00,147 Birch St,San Antonio,South
+1018,2025-01-16,2025-01-20,Standard,Completed,Smart Homes Ltd,Smart Light Bulb,40,25.00,1000.00,789 Elm Rd,Chicago,Midwest

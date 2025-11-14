@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+env/
+*.log
+.DS_Store
+.ipynb_checkpoints/
+src/eda-env
+
+# Environment variables (contains API keys)
+.env
+
+# Logs
+src/logs/*.json
+
+# Temporary files
+src/temp/
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
